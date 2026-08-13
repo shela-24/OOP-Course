@@ -5,7 +5,6 @@ class gradeCalculate{
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter number:");
-
         double n;
         n = sc.nextDouble();
         if(n<0 || n>100){
